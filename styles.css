@@ -223,19 +223,18 @@ html {
     padding: 1rem ;
     text-align: center;
   }
-  .wrapper {
+  .contact-content {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    justify-content: space-around;
+    grid-template-columns: 150px 150px 150px;
+    justify-content:space-around;
   
 
   }
-  .wrapper a{
+  .contact-content a{
     display: flex;
     align-items: center;
     justify-content:center;
     padding: 1.5rem;
-    background: var(--secondary-color);
     height: 3rem;
     border-radius: 50%;
     border: 0.1rem solid;
@@ -257,9 +256,12 @@ html {
     background: var(--primary-color);
   }
   .map-box h3{
-    font-size: 3rem;
-    padding: 1.5rem;
-  
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .map-box p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
   }
   .map-box iframe{
   width:100%;
