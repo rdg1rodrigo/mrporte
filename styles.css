@@ -213,32 +213,40 @@ html {
     transform: rotate(5deg);
   }
   .contact{
-    text-align: center;
-    background: var(--primary-color)
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--primary-color);
+  }
+  .contact h2{
+    padding-top: 3rem;
+    padding-bottom:none;
   }
 
-  footer {
-    background: var(--secondary-color);
-    color: rgb(102, 101, 101);
-    font-size: 1rem;
-    padding: 1rem ;
-    text-align: center;
-  }
   .contact-content {
     display: grid;
-    grid-template-columns: 150px 150px 150px;
-    justify-content:space-around;
-  
-
+    grid-template-columns: 112px 100px 100px;
+    justify-content:center;
+  }
+  .contact-content img:hover {
+      transform: translate(-3%, 3%) scale(1.2) ;
+  }
+  .contact-content h3 {
+    position: relative;
+    font-size: 1rem;
   }
   .contact-content a{
     display: flex;
     align-items: center;
     justify-content:center;
-    padding: 1.5rem;
-    height: 4rem;
-    color: #ffffff;
-    
+    padding: 2rem ;
+    height: 1rem;
+  }
+  .contact-content img{
+    width: 100px;
+    height:70px;
+    border-radius: 50%;
   }
   .map-box-content{
     position: relative;
@@ -248,11 +256,11 @@ html {
   
   }
   .map-box{
+    
     position: relative;
-    margin-left: 30%;
     width: 600px;
-    height: 450px;
-    background: var(--primary-color);
+    height: 440px;
+
   }
   .map-box h3{
     font-size: 2rem;
@@ -265,6 +273,15 @@ html {
   .map-box iframe{
   width:100%;
   height:100%;
+  }
+  
+  footer {
+    gap: var(--gap);
+    border-top: 1px solid rgb(102, 101, 101);
+    color: rgb(102, 101, 101);
+    font-size: 1rem;
+    padding: 1rem ;
+    text-align: center;
   }
 @media (max-width: 700px){
   body{
