@@ -315,6 +315,18 @@ html {
     background-size: cover;
     background-position: center;
    }
+  
+  h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 0.8rem;
+    margin-bottom: 3rem;
+  }
 
   .gallery-img{
   width: 100%;
