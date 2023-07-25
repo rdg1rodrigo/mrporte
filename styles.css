@@ -420,8 +420,12 @@ footer {
   }
   .map-box{
     position: relative;
+    width: 600px;
+    padding-bottom: 32px;
+    min-height: auto;
+  }
+  .map-box iframe {
     width: 100%;
     height: 50vh;
-    
   }
 }
