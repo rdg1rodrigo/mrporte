@@ -235,6 +235,9 @@ html {
   .contact-content h3 {
     position: relative;
     font-size: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+
   }
   .contact-content a{
     display: flex;
@@ -268,6 +271,7 @@ html {
   .map-box p {
     text-align: center;
     font-size: 1rem;
+    margin-bottom: 0.5rem;
   }
   .map-box iframe{
   width:100%;
