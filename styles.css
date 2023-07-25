@@ -280,7 +280,6 @@ html {
     border-top: 1px solid rgb(102, 101, 101);
     color: rgb(102, 101, 101);
     font-size: 1rem;
-    padding: 1rem ;
     text-align: center;
   }
   footer a{
@@ -400,12 +399,4 @@ html {
     padding: 0.5rem;
   }
 
-
-footer {
-  z-index: 4;
-  border-top: 1px solid rgb(102, 101, 101);
-  font-size: 1rem;
-  padding-top: 1rem ;
-  text-align: center;
-}
 }
