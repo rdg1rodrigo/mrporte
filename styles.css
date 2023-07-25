@@ -218,6 +218,7 @@ html {
     align-items: center;
     min-height: 100vh;
     background: var(--primary-color);
+    
   }
   .contact h2{
     padding-top: 3rem;
@@ -307,7 +308,7 @@ html {
     border: 0.1rem solid var(--primary-color);
   }
 
-@media (max-width: 800px){
+@media screen and (max-width: 800px){
   body, .gallery-content, .grid, 
   .work-content, .contact{
      grid-template-columns: 1fr;
