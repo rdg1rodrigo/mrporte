@@ -220,7 +220,7 @@ html {
     background: var(--primary-color);
   }
   .contact h2{
-    padding-top: 3rem;
+    padding-top: 1rem;
     padding-bottom:none;
   }
 
@@ -263,13 +263,11 @@ html {
   }
   .map-box h3{
     text-align: center;
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 1.5rem;
   }
   .map-box p {
     text-align: center;
     font-size: 1rem;
-    margin-bottom: 1rem;
   }
   .map-box iframe{
   width:100%;
