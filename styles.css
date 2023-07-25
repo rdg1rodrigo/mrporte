@@ -402,16 +402,7 @@ html {
     font-size: 1rem;
     padding: 0.5rem;
   }
-  .map-box p {
-    text-align: center;
-    font-size: 0.8rem;
-    margin-bottom: 0.8rem;
-  }
-  .map-box iframe{
-    position: relative;
-    width: 500px;
-    height: 400px;
-}
+
 footer {
   z-index: 4;
   border-top: 1px solid rgb(102, 101, 101);
@@ -419,4 +410,18 @@ footer {
   padding-top: 1rem ;
   text-align: center;
 }
+}
+@media (max-width: 800px){
+  .map-box iframe{
+    position: relative;
+    width: 500px;
+    height: 75vh;
+
+  }
+  .map-box{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    
+  }
 }
