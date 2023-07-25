@@ -391,7 +391,8 @@ html {
   }
  .contact {
   position: absolute;
-  max-width: 100vh;
+  width: 100%;
+  flex: 1 1 100%;
   background: var(--primary-color);
   background-size: cover;
   background-position: center;
@@ -409,8 +410,8 @@ html {
   }
   .map-box iframe{
     position: relative;
-    max-width: 100vh;
-    max-height: 100vh;
+    width: 100%;
+    flex: 1 1 100%;
 }
 footer {
   z-index: 4;
