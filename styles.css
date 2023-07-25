@@ -390,9 +390,6 @@ html {
     display: none;
   }
  .contact {
-  position: absolute;
-  width: 100%;
-  flex: 1 1 100%;
   background: var(--primary-color);
   background-size: cover;
   background-position: center;
@@ -409,10 +406,11 @@ html {
     margin-bottom: 0.8rem;
   }
   .map-box iframe{
-    position: relative;
-    width: 100%;
-    flex: 1 1 100%;
-}
+    width: 600px; 
+    height: 400px;
+    margin: 0 auto; 
+  }
+
 footer {
   z-index: 4;
   border-top: 1px solid rgb(102, 101, 101);
