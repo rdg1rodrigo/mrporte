@@ -221,7 +221,7 @@ html {
     
   }
   .contact h2{
-    padding-top: 3rem;
+    padding-top: 1rem;
     padding-bottom:none;
   }
 
@@ -236,6 +236,9 @@ html {
   .contact-content h3 {
     position: relative;
     font-size: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+
   }
   .contact-content a{
     display: flex;
@@ -257,7 +260,6 @@ html {
   
   }
   .map-box{
-    
     position: relative;
     width: 600px;
     height: 440px;
@@ -265,13 +267,12 @@ html {
   }
   .map-box h3{
     text-align: center;
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 1.5rem;
   }
   .map-box p {
     text-align: center;
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
   .map-box iframe{
   width:100%;
@@ -279,11 +280,9 @@ html {
   }
   
   footer {
-    gap: var(--gap);
     border-top: 1px solid rgb(102, 101, 101);
     color: rgb(102, 101, 101);
     font-size: 1rem;
-    padding: 1rem ;
     text-align: center;
   }
   footer a{
@@ -392,8 +391,7 @@ html {
   }
  .contact {
   position: absolute;
-  display: flex;
-  max-width: 100%;
+  width: 100%;
   background: var(--primary-color);
   background-size: cover;
   background-position: center;
@@ -413,31 +411,16 @@ html {
   }
   .map-box p {
     text-align: center;
-    font-size: 2rem;
+    font-size: 0.8rem;
     margin-bottom: 0.8rem;
-  }
-  .map-box{
-    position: relative;
-    width: 390px;
-    height: 500px;
-    background: var(--primary-color);
-  }
-  .map-box h3{
-    font-size: 2rem;
-    padding-top: 0.5rem;
-  }
-  .map-box p {
-    font-size: 0.6rem;
-    margin-bottom: 1rem;
   }
   .map-box iframe{
     position: relative;
-  width:100%;
-  height: 60vh;
-  }
-
+    width: 500px;
+    height: 400px;
+}
 footer {
-  z-index: 5;
+  z-index: 4;
   border-top: 1px solid rgb(102, 101, 101);
   font-size: 1rem;
   padding-top: 1rem ;
