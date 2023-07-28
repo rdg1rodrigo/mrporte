@@ -281,9 +281,10 @@ html {
   }
   footer p {
   color: rgb(102, 101, 101);
-  font-size: 0.5rem;
+  font-size: 1rem;
   text-align: center;
-  padding: 1.5rem;
+  padding-top: 10px;
+  padding-bottom: 0rem;
   }
   .close-menu{
     display: none;
