@@ -282,7 +282,7 @@ html {
   footer p {
     margin-bottom: 0;
   }
-  footer p span a {
+  #footer span {
   color: rgb(102, 101, 101);
   font-size: 0.75rem;
   text-align: center;
