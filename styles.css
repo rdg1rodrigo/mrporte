@@ -285,11 +285,14 @@ html {
     font-size: 1rem;
     text-align: center;
   }
+  footer p {
+    margin-bottom: 0;
+  }
   footer a{
     text-decoration: none;
   }
   span {
-    font-size: 0.75rem;
+    font-size: 0.1rem;
     color: rgb(102, 101, 101);
 }
   .close-menu{
