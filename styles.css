@@ -360,6 +360,7 @@ html {
   }
   .menu-content {
     height: 100vh;
+    background: rgb(37, 37, 37);
   }
   .menu {
     display: none;
